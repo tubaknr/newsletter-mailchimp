@@ -1,0 +1,21 @@
+{
+  "name": "newsletter-mailchimp",
+  "version": "1.0.0",
+  "description": "simple newsletter app using Mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Tuba Culhaoglu",
+  "license": "MIT",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
